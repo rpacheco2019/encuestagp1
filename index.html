@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Customer Survey :)</title>
+        <meta name="description" content="Esta es mi primer pagina web"/>
+        <meta name="author" content="Mike"/>
+        <meta name="keywords" content="Mi primer Blog, Cocina, Disenio, Desarrollo Web"/>
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="fontawesome/css/all.css">
+    </head>
+    <!-- Encuesta Planner 1 Events -->
+    <body>
+        <!-- Div principal -->
+        <div class="agrupar">
+
+            <!-- Header con logo -->     
+            <header class="cabecera">
+                <img class="logo" src="img/logo.jpg" alt="" >
+            </header>
+
+            <!-- Menu de navegación, solo muestra la linea gris. -->
+            <nav class="menu">
+                <ul>
+                </ul>
+            </nav>
+            
+            <!-- Inicia sección de formulario -->
+            <section class="seccion">
+                <article> 
+                    <hgroup>
+                        <i class="fas fa-book fa-3x"></i>
+                        <h1>CUSTOMER SATISFACTION SURVEY</h1>
+                    </hgroup>
+                            <p>Thank you very much for your preference and for taking the time to complete this questionnaire.</p>
+                            <br>
+                            <p>Your opinion is very important for us and we appreciate your feedback!</p>
+                </article>
+                <hr>
+                    <div class="formulario">
+                        <!-- Nombre de contacto -->
+                        <i class="fas fa-users fa-2x"></i><label for="name">Contact name:</label>
+                        <input type="text" id="name" name="fname" placeholder="Your name...">
+
+                        <!-- Nombre de evento -->
+                        <i class="fas fa-glass-cheers fa-2x"></i><label for="event">Group / Event name:</label>
+                        <input type="text" id="event" name="event" placeholder="">
+
+                        <!-- Fecha del evento -->
+                        <i class="far fa-calendar-alt fa-2x"></i><label for="date">Date of the event:</label>
+                        <input type="date" id="date" name="date" placeholder="">
+
+                        <!-- Lugar del evento -->
+                        <i class="fas fa-location-arrow fa-2x"></i><label for="place">Place of the event:</label>
+                        <input type="text" id="place" name="place" placeholder="">
+
+                        <!-- Tipo de evento CSS Checkbox ajustado-->
+                        <i class="far fa-question-circle fa-2x"></i><label for="">Type of event:</label>
+                            <div class="checkbox">
+                                <!-- Opcion corporate -->
+                                <input type="radio" id="corporate" name="type" value="corporate">
+                                <label for="corporate">Corporate</label><br>
+                                
+                                <!-- Opcion incentivo -->
+                                <input type="radio" id="incentive" name="type" value="incentive">
+                                <label for="incentive">Incentive</label><br>
+                                
+                                <!-- Opcion otro -->
+                                <input type="radio" id="other" name="type" value="other">
+                                <label for="other">Other</label><br>
+                            </div>
+                        <hr>
+
+                          <!-- Pregunta 1 -->
+                          <p>1. Overall experience with Planner1 Event Sales Specialist:</p>
+                            <div class="checkbox">
+                                <!-- Excelent -->
+                                <input type="radio" id="p1excel" name="p1" value="excellent">
+                                <label for="p1excel">Excellent</label><br>
+                                
+                                <!-- Good -->
+                                <input type="radio" id="p1good" name="p1" value="good">
+                                <label for="p1good">Good</label><br>
+                                
+                                <!-- Average -->
+                                <input type="radio" id="p1average" name="p1" value="average">
+                                <label for="p1average">Average</label><br>
+
+                                 <!-- Poor -->
+                                 <input type="radio" id="p1poor" name="p1" value="poor">
+                                 <label for="p1poor">Poor</label><br>
+                            </div>
+
+                          <!-- Pregunta 2 -->
+                          <p>2. How do you rate the quality of the furniture & décor items?</p>
+                            <div class="checkbox">
+                                <!-- Excelent -->
+                                <input type="radio" id="p2excel" name="p2" value="excellent">
+                                <label for="p2excel">Excellent</label><br>
+                                
+                                <!-- Good -->
+                                <input type="radio" id="p2good" name="p2" value="good">
+                                <label for="p2good">Good</label><br>
+                                
+                                <!-- Average -->
+                                <input type="radio" id="p2average" name="p2" value="average">
+                                <label for="p2average">Average</label><br>
+
+                                <!-- Poor -->
+                                <input type="radio" id="p2poor" name="p2" value="poor">
+                                <label for="p2poor">Poor</label><br>
+                            </div>
+
+                          <!-- Pregunta 3 -->
+                          <p>3. How do you rate the quality of the flower design?</p>
+                          <div class="checkbox">
+                              <!-- Excelent -->
+                              <input type="radio" id="p3excel" name="p3" value="excellent">
+                              <label for="p3excel">Excellent</label><br>
+                              
+                              <!-- Good -->
+                              <input type="radio" id="p3good" name="p3" value="good">
+                              <label for="p3good">Good</label><br>
+                              
+                              <!-- Average -->
+                              <input type="radio" id="p3average" name="p3" value="average">
+                              <label for="p3average">Average</label><br>
+
+                              <!-- Poor -->
+                              <input type="radio" id="p3poor" name="p3" value="poor">
+                              <label for="p3poor">Poor</label><br>
+                          </div>
+
+                          <!-- Pregunta 4 -->
+                          <p>4. Overall experience with the staff during set up</p>
+                          <div class="checkbox">
+                              <!-- Excelent -->
+                              <input type="radio" id="p4excel" name="p4" value="excellent">
+                              <label for="p4excel">Excellent</label><br>
+                              
+                              <!-- Good -->
+                              <input type="radio" id="p4good" name="p4" value="good">
+                              <label for="p4good">Good</label><br>
+                              
+                              <!-- Average -->
+                              <input type="radio" id="p4average" name="43" value="average">
+                              <label for="p4average">Average</label><br>
+
+                              <!-- Poor -->
+                              <input type="radio" id="p4poor" name="p4" value="poor">
+                              <label for="p4poor">Poor</label><br>
+                          </div>
+
+                          <!-- Pregunta 5 -->
+                          <p>5. How likely are you to recommend Planner1 Events to others or for future events? / Additional comments:</p>
+                          <textarea name="p5" id="p5" cols="30" rows="10"></textarea>   
+
+                          <!-- Boton Guardar -->
+                          <input class="boton" type="button" value="Send Survey">
+                    </div>
+            </section>
+
+            <!-- Pie de pagina del sitio -->
+            <footer class="pie">
+                Derechos Reservados 2020 - Planner 1 Events
+            </footer>
+
+        </div>
+    </body>
+</html>
+
+ 
+
