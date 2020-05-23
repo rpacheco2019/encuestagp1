@@ -63,7 +63,7 @@ body{
 }
 
 article {
-    background: #CFD8DC;
+    background: ##F5F5F5;
     border: 1px solid #999;
     padding: 20px;
     margin-bottom: 15px;
@@ -91,7 +91,7 @@ article li{
 
 .formulario input{
     width: 45%;
-    border: 2px solid #FFCCBC;
+    border: 2px solid #999;
     margin: 15px 0px;
     padding: 12px 20px;
     box-sizing: border-box;
@@ -116,7 +116,7 @@ textarea{
     width: 45%;
     height: 100px;
     padding: 20px;
-    border: solid 1px #FFCCBC;
+    border: solid 1px #999;
 }
 
 .checkbox {
