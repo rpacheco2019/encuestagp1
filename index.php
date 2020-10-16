@@ -10,7 +10,7 @@ if ($_POST) {
     $evento = $_POST['event'];
     $fecha = $_POST['date'];
     $lugar = $_POST['place'];
-    $invitados = $_POST['type'];
+    $type = $_POST['type'];
     $p1 = $_POST['p1'];
     $p2 = $_POST['p2'];
     $p3 = $_POST['p3'];
