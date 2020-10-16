@@ -10,7 +10,7 @@ if ($_POST) {
     $evento = $_POST['event'];
     $fecha = $_POST['date'];
     $lugar = $_POST['place'];
-    $invitados = $_POST['guests'];
+    $invitados = $_POST['type'];
     $p1 = $_POST['p1'];
     $p2 = $_POST['p2'];
     $p3 = $_POST['p3'];
@@ -18,7 +18,7 @@ if ($_POST) {
     $p5 = $_POST['p5'];
 
     /* Guardamos el resultado de la funcion para validar el guardado en la BD */
-	$validacion = save_encuesta($nombre,$evento,$fecha,$lugar,$invitados,$p1,$p2,$p3,$p4,$p5);
+	$validacion = save_encuesta($nombre,$evento,$fecha,$lugar,$type,$p1,$p2,$p3,$p4,$p5);
 	header('Location:gracias.php');
 			
 }
